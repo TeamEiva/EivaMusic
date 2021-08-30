@@ -27,9 +27,9 @@ def _start(client, message):
                         "➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{venomxT_musicbot}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "📲 Updates", url=f"https://t.me/{vip_gamechangers}"), 
+                        "📲 Updates", url=f"https://t.me/{swagpartners_xd}"), 
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/{viP_gamechangers}")
+                        "💬 Support", url=f"https://t.me/{swagpartners_xd}")
                 ],[
                     InlineKeyboardButton(
                         "🛠 Source Code 🛠", url=f"https://t.me/{shivamdemon}")
@@ -47,7 +47,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/{vip_gamechangers}"
+                        "💬 Support Chat", url=f"https://t.me/{swagpartmers_xd}"
                     )
                 ]
             ]
@@ -88,8 +88,8 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{venomxt_musicbot}?startgroup=true")],
-            [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{vip_gamechangers}"),
-             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{vip_gamechangers}")],
+            [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{swagpartmers_xd}"),
+             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{swagpartners_xd}")],
             [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://t.me/{shivamdemon}")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
